@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f80cad03.css",
-    "main.js": "/portfolio-website/static/js/main.43afe00f.js",
-    "index.html": "/portfolio-website/index.html",
-    "main.f80cad03.css.map": "/portfolio-website/static/css/main.f80cad03.css.map",
-    "main.43afe00f.js.map": "/portfolio-website/static/js/main.43afe00f.js.map"
+    "main.css": "/www.daansijnja.nl/static/css/main.f80cad03.css",
+    "main.js": "/www.daansijnja.nl/static/js/main.b518121d.js",
+    "index.html": "/www.daansijnja.nl/index.html",
+    "main.f80cad03.css.map": "/www.daansijnja.nl/static/css/main.f80cad03.css.map",
+    "main.b518121d.js.map": "/www.daansijnja.nl/static/js/main.b518121d.js.map"
   },
   "entrypoints": [
     "static/css/main.f80cad03.css",
-    "static/js/main.43afe00f.js"
+    "static/js/main.b518121d.js"
   ]
 }
