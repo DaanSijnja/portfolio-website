@@ -1,0 +1,84 @@
+.info--header {
+    margin: auto 0px auto;
+    margin-top: 6rem;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+  }
+
+.info--div {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 3rem 0 3rem;
+    margin-top: 1rem;
+}
+
+.skills--div {
+    padding: 20px 10px;
+    margin: 0 0.2rem 0.2rem 0.2rem;
+    width: auto;
+    height: fit-content;
+}
+
+
+.sub--header {
+  font-size: 40px;
+  color: var(--accent-700);
+}
+
+
+
+.bullet--points--text {
+    
+    width: auto;
+    height: fit-content;
+    padding: 20px 10px;
+    margin: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.images--div {
+  width: 100%;
+  min-height: max-content;
+  padding: 20px 10px;
+  margin: 0 0.2rem 0.2rem 0.2rem;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1380px) {
+    .info--header {
+      font-size: 50px;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .info--header {
+      font-size: 30px;
+    }
+
+    .info--div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub--header {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .skills--div {
+      text-align: center;
+    }
+
+    .bullet--points--text {
+      text-align: left;
+
+    }
+
+  }

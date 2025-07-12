@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     flex-grow: 1;
 }
 
 .box {
     height: fit-content;
     width: 200px;
-
+    
     border-color: var(--background-100);
     border-style: solid;
     border-width: 0.2rem 0.2rem 0.2rem 0.2rem; 

@@ -1,8 +1,14 @@
 import React from 'react'
+import Greeting from '../containers/greetings/Greeting'
+import { HomeInfo } from '../containers/homeinfo/HomeInfo.js'
+import "./HomePage.css" 
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='main--body'>
+        <Greeting/>
+        <HomeInfo/>
+    </div>
   )
 }
 

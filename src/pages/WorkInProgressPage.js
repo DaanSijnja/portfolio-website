@@ -1,8 +1,9 @@
 import React from 'react'
 import { BsGearWide, BsGearWideConnected} from "react-icons/bs";
-import { socialLinks } from '../data/socials';
+import { socialLinks } from '../data/socials-data';
 import "./WorkInProgressPage.css"
 import SocialItem from '../components/SocialItem/SocialItem';
+import Socials from '../containers/socials/Socials';
 
 const WorkInProgressPage = () => {
   return (
@@ -20,13 +21,7 @@ const WorkInProgressPage = () => {
                     </div>
                 </div>
                 <div className='socials--box'>
-                    {
-                        socialLinks.map((socialLink) => {
-                            return(
-                                <SocialItem data={socialLink} key={socialLink.id} />
-                            )
-                        })
-                    }
+                    <Socials />
                 </div>
 
             </div>

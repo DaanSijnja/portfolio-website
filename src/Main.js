@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes, Switch } from "react-router-dom";
 
 //find a better way for this \/\/\/
 import HomePage from './pages/HomePage';
@@ -11,14 +11,14 @@ import WorkInProgressPage from './pages/WorkInProgressPage';
 const Main = () => {
   return (
     <>
-        <Routes>
-            <Route path='/' element={<WorkInProgressPage/>} />
-            <Route path='/skill' element={<WorkInProgressPage/>} />
-            <Route path='/experience' element={<WorkInProgressPage/>} />
-            <Route path='/education' element={<WorkInProgressPage/>} />
-            <Route path='/portfolio' element={<WorkInProgressPage/>} />
-            <Route path='/contact' element={<WorkInProgressPage/>} />
-        </Routes>
+      <Routes>
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/skill' element={<WorkInProgressPage/>} />
+        <Route path='/experience' element={<WorkInProgressPage/>} />
+        <Route path='/education' element={<WorkInProgressPage/>} />
+        <Route path='/portfolio' element={<WorkInProgressPage/>} />
+        <Route path='/contact' element={<WorkInProgressPage/>} />
+      </Routes>
     </>
   )
 }
